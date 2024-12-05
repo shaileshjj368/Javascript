@@ -5,7 +5,7 @@ const repoCount = 19
 // console.log(name+ repoCount+ "repo count ")  
 
 // String interpolation
-console.log('Hello my name is ${name} and my repo count is ${repoCount}')
+console.log(`Hello my name is, ${name} ,and my repo count is, ${repoCount}`)
 
 const game = new String('pubg')
 
