@@ -12,3 +12,9 @@
 
 // the functions are declared such a way to avoid global scope pollution
 
+(function() {
+    var privateVariable = "I'm private";
+    console.log(privateVariable);
+})();
+
+// console.log(privateVariable); // Error: privateVariable is not defined
