@@ -1,6 +1,6 @@
 "use strict" // use newer version of the javascript
 
-//alert(3+3)// this is node not browser
+//alert(3+3)// this works in browser only
 
 /*
 number => 2 to the power of 53(range)
