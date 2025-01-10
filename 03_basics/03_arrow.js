@@ -20,19 +20,19 @@ user.welcomeMessage()
 console.log(this) // returns object with modified value
 
 function code(){
-    let username = "hitesh"
+    let username = "shailesh"
     console.log(this.username); //undefined 
 }
 code()
 
 const coding = function () {
-    let username = "hitesh"
+    let username = "shailesh"
     console.log(this.username); // undefined
 }
 coding()
 //arrow function
 const coder =  () => {
-    let username = "hitesh"
+    let username = "shailesh"
     console.log(this.username) // undefined
     console.log(this); // {}
 }
