@@ -30,10 +30,11 @@ console.log(string)
 console.log(string.trim());
 // removes white spaces and line terminator from string from both end and also has
 // trimEnd and trimStart
+// All operations performed in this file will return a new string and not modify the original string
 
 const url = "https://shailesh.com/shailesh%20joshi"
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-'))  
 
 console.log(url.includes('shailesh')) // true
 
